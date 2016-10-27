@@ -11,6 +11,6 @@ docker build -t my-piwik .
 docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:latest
 
 // start piwik
-docker run --name some-piwik --link some-mysql:db -d piwik
+docker run --name some-piwik --link some-mysql:db -d my-piwik
 ```
 
