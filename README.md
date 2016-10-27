@@ -1,7 +1,7 @@
 # docker-piwik
 Docker image for <a href="https://piwik.org/">Piwik</a>
 
-Example Usage (in combination with the official mysql docker container)
+Example Usage (in combination with the official <a href="https://hub.docker.com/_/mysql/">mysql docker container</a>)
 ```
 git clone https://github.com/Finkes/docker-piwik.git
 cd docker-piwik
