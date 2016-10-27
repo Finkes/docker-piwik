@@ -12,3 +12,4 @@ RUN mv ./piwik/* . && rm -R piwik
 RUN chown -R www-data:www-data /var/www/html
 RUN chmod -R 755 /var/www/html
 CMD service apache2 start && tail -f /var/log/apache2/access.log /var/log/apache2/error.log
+EXPOSE 80
